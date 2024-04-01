@@ -36,12 +36,13 @@ namespace FoodOrderingProgram
 
                     Console.WriteLine(code[i].PadRight(5) + menu[i].PadRight(25) + strPrice);
                 }
+                Console.WriteLine("\n");
 
                 //string[] order_list = new string[1];
                 List<string> order_list = new List<string>();
                 string order;
                 int code_index;
-                int qty=0;
+                int qty = 0;
                 decimal total_price = 0;
 
                 do
